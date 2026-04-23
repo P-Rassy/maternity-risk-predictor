@@ -29,7 +29,7 @@ st.set_page_config(
 # ── Load artifacts ────────────────────────────────────────────────────────────
 @st.cache_resource
 def load_model():
-    model         = joblib.load("final_model.joblib")
+    model = joblib.load("final_model_v2.joblib")
     artifacts     = joblib.load("app_artifacts.joblib")
     feature_names = joblib.load("feature_names.joblib")
     return model, artifacts, feature_names
