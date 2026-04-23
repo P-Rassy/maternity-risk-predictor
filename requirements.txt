@@ -4,3 +4,4 @@ xgboost==3.2.0
 pandas
 numpy==2.0.2
 imbalanced-learn
+joblib
